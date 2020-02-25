@@ -1,7 +1,7 @@
 <template>
 <div id="app">
   <div v-if= "this.humbug.board.squares.length">
-    Number of moves : <input type="number" v-model="humbug.nMoves">
+    Number of moves : <input type="number" v-model.number="humbug.nMoves">
     
     <table id="squares" class="table">
       <tr v-for="(line, i) in humbug.board.squares" v-bind:key="`line-${i}`" class="row">
