@@ -77,7 +77,7 @@ export default {
                         break;
                     default: // animal
                         newSquare = { type: "GRASS" };
-                        newJson.animals.push({name: curType, row: iLine, col: iCol})
+                        newJson.animals.push({type: curType, positionOnBoard: { row: iLine, column: iCol } })
                         break;
                     }
                     newLine.push(newSquare);
