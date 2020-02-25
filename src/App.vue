@@ -94,7 +94,7 @@ export default {
         return {
             nRows: 4,
             nCols: 3,
-            squareTypes: ["GRASS", "STAR", "Snail", "Grasshopper", "Spider"],
+            squareTypes: ["GRASS", "STAR", "Snail", "Grasshopper", "Spider", "Ladybird", "Bumbelbee", "Butterfly"],
             humbug: {
                 "board": {
                     "squares": []
